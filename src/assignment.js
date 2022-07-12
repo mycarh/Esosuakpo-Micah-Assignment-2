@@ -36,14 +36,15 @@ function sumOfNumbers(arrayOfNumbers)
  */
 function countEvenNumbers(arrayOfNumbers) {
 
-const countEvenNumbers = arrayOfNumbers.filter(arrayOfNumbers =>{
-
-    return arrayOfNumbers % 2 === 0;
-})
-
-    return arrayOfNumbers.length;
-}
- assignment.countEvenNumbers = countEvenNumbers;
+    let count = 0;
+    for(let i = 0; i < arrayOfNumbers.length; i++) {
+      if (arrayOfNumbers[i] % 2 == 0) {
+          count++;
+        }
+      }
+      return count;
+  }
+  assignment.countEvenNumbers = countEvenNumbers
 
 /**
  * Challenge - 3

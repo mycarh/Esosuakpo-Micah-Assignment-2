@@ -23,7 +23,6 @@ function sumOfNumbers(arrayOfNumbers)
      }
         return sumOfNumbers;
      }
-     
  assignment.sumOfNumbers = sumOfNumbers;
 
 /**
